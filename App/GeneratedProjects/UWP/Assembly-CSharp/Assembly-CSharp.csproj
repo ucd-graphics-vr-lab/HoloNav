@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{fe8bbfd4-5f11-4122-b365-5bf6d12644bb}</ProjectGuid>
+    <ProjectGuid>{e87718e9-b219-4cea-a2ed-484825b865b7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AssemblyCSharpWSA</RootNamespace>
@@ -2461,6 +2461,9 @@
     </Compile>
     <Compile Include="$(UnityProjectDir)Assets\Scripts\DebugLog.cs">
       <Link>Scripts\DebugLog.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\UIControl.cs">
+      <Link>UIControl.cs</Link>
     </Compile>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">

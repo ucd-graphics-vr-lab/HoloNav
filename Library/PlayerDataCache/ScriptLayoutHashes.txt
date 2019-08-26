@@ -150,7 +150,6 @@ dfbbd0f200dcccb2189b8a6462d69d7c Assembly-CSharp.dll:HoloToolkit.Unity.UX.LineUn
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:HoloToolkit.Examples.DebugText
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:HoloToolkit.Unity.InputModule.Tests.GestureResponder
 5949fd804ca2bda147aee5de0f13cb97 Assembly-CSharp.dll:HoloToolkit.Unity.InputModule.ObjectCursor
-62a85965a6f9a0f75bdfaafc40c643fa Assembly-CSharp.dll:.UIControl
 d4463422b1b111b746cad022acbdb5b4 Assembly-CSharp.dll:HoloToolkit.Unity.InputModule.GazeManager
 c355ff393a458fe44759b6cd464a61de Assembly-CSharp.dll:HoloToolkit.Unity.InputModule.SpriteCursor
 98d3576e9fda5c72d1b874f4c4d73ff1 Assembly-CSharp.dll:HoloToolkit.Unity.InputModule.XboxControllerInputSource
@@ -507,3 +506,5 @@ c1cc82b2110e41150c5ad19a512334bd Assembly-CSharp.dll:HoloToolkit.Examples.Protot
 b74d6034034deeffc1401e25ca9027a5 Assembly-CSharp.dll:HoloToolkit.Unity.Buttons.CompoundButton
 9a0abb9f7109ec47e2c7bfd5d401ded8 Assembly-CSharp.dll:HoloToolkit.Unity.InputModule.Examples.Grabbables.GrabbableSimple
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:HoloToolkit.Examples.SpatialUnderstandingFeatureOverview.ShapeDefinition
+7e4fee3467d9407754ae1b92f7c7d569 Assembly-CSharp.dll:.UIControl
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.UIInitializer

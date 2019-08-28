@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{666d6e2c-8533-465e-9d07-8ca9f15e3472}</ProjectGuid>
+    <ProjectGuid>{75233ea5-f40c-4462-9688-8949c868a81a}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AssemblyCSharpWSA</RootNamespace>
@@ -2458,6 +2458,9 @@
     </Compile>
     <Compile Include="$(UnityProjectDir)Assets\HoloToolkit-Examples\UX\Scripts\Widgets\TextureThemeWidget.cs">
       <Link>HoloToolkit-Examples\UX\Scripts\Widgets\TextureThemeWidget.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Scripts\CalculateDistance.cs">
+      <Link>Scripts\CalculateDistance.cs</Link>
     </Compile>
     <Compile Include="$(UnityProjectDir)Assets\Scripts\DebugLog.cs">
       <Link>Scripts\DebugLog.cs</Link>

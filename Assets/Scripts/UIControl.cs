@@ -5,17 +5,23 @@ using UnityEngine;
 public class UIControl : MonoBehaviour {
 
     public GameObject openingScreen;
-    public GameObject destinationList;
+    public GameObject destinationLists;
+    public GameObject debugobjects;
 
     private void Start()
     {
         openingScreen = GameObject.Find("OpeningScreen");
-        destinationList = GameObject.Find("DestinationList");
+        destinationLists = GameObject.Find("DestinationList");
     }
 
     public void setDestination()
     {
         openingScreen.gameObject.active = false;
-        destinationList.gameObject.active = true;
+        destinationLists.gameObject.active = true;
     }	
+    public void debugMode()
+    {
+        openingScreen.gameObject.active = false;
+        debugobjects.gameObject.active = true;
+    }
 }

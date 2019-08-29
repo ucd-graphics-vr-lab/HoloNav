@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{75233ea5-f40c-4462-9688-8949c868a81a}</ProjectGuid>
+    <ProjectGuid>{16621955-3c79-48ab-b2d3-76bfa6ee42fa}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AssemblyCSharpWSA</RootNamespace>
@@ -2467,9 +2467,6 @@
     </Compile>
     <Compile Include="$(UnityProjectDir)Assets\Scripts\UIControl.cs">
       <Link>Scripts\UIControl.cs</Link>
-    </Compile>
-    <Compile Include="$(UnityProjectDir)Assets\Scripts\UIInitializer.cs">
-      <Link>Scripts\UIInitializer.cs</Link>
     </Compile>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">

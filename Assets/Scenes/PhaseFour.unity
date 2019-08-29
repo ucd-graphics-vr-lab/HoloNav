@@ -113,6 +113,93 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &63712091
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 63712092}
+  - component: {fileID: 63712094}
+  - component: {fileID: 63712093}
+  m_Layer: 0
+  m_Name: PCLab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &63712092
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 63712091}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.35, y: 2, z: 168}
+  m_LocalScale: {x: 0.07692309, y: 0.83333325, z: 2}
+  m_Children: []
+  m_Father: {fileID: 1237494818}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!102 &63712093
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 63712091}
+  m_Text: '14. LW840 - PC Lab
+
+'
+  m_OffsetZ: 0
+  m_CharacterSize: 1
+  m_LineSpacing: 1
+  m_Anchor: 0
+  m_Alignment: 0
+  m_TabSize: 4
+  m_FontSize: 27
+  m_FontStyle: 0
+  m_RichText: 1
+  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
+--- !u!23 &63712094
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 63712091}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
 --- !u!1 &66094316
 GameObject:
   m_ObjectHideFlags: 0
@@ -125,7 +212,7 @@ GameObject:
   - component: {fileID: 66094319}
   - component: {fileID: 66094318}
   m_Layer: 0
-  m_Name: MachineLearning (1)
+  m_Name: PDSLab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -209,7 +296,7 @@ GameObject:
   - component: {fileID: 103000587}
   - component: {fileID: 103000586}
   m_Layer: 0
-  m_Name: MachineLearning - Text
+  m_Name: CSLab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -235,7 +322,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 103000584}
-  m_Text: c. LW822 - CPSL
+  m_Text: 12. LW836 - Comp. Sys. Lab
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -391,7 +478,7 @@ GameObject:
   - component: {fileID: 198192265}
   - component: {fileID: 198192264}
   m_Layer: 0
-  m_Name: MachineLearning - Text
+  m_Name: BDLab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -417,7 +504,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 198192262}
-  m_Text: 'b. LW821 - Machine Learning
+  m_Text: '8. LW831 - Big Data Lab
 
 '
   m_OffsetZ: 0
@@ -467,6 +554,39 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!1 &203671871
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 203671872}
+  m_Layer: 0
+  m_Name: PageBox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &203671872
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 203671871}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1815376228}
+  - {fileID: 1121671078}
+  - {fileID: 394790690}
+  - {fileID: 1816445382}
+  - {fileID: 1497530388}
+  m_Father: {fileID: 595534624}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &220809704
 GameObject:
   m_ObjectHideFlags: 0
@@ -637,6 +757,91 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 274113560}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &286295663
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 286295664}
+  - component: {fileID: 286295666}
+  - component: {fileID: 286295665}
+  m_Layer: 0
+  m_Name: Page 5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &286295664
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 286295663}
+  m_LocalRotation: {x: -0, y: -0, z: 4.6566123e-10, w: 1}
+  m_LocalPosition: {x: 22.6, y: 0, z: 122.89988}
+  m_LocalScale: {x: 1.0040524, y: 1.0003568, z: 1.0036948}
+  m_Children: []
+  m_Father: {fileID: 595534624}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!102 &286295665
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 286295663}
+  m_Text: 5
+  m_OffsetZ: 0
+  m_CharacterSize: 1
+  m_LineSpacing: 1
+  m_Anchor: 0
+  m_Alignment: 0
+  m_TabSize: 4
+  m_FontSize: 30
+  m_FontStyle: 0
+  m_RichText: 1
+  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
+--- !u!23 &286295666
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 286295663}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
 --- !u!1 &311470277
 GameObject:
   m_ObjectHideFlags: 0
@@ -666,6 +871,7 @@ Transform:
   - {fileID: 1592189254}
   - {fileID: 1491120579}
   - {fileID: 1044962499}
+  - {fileID: 754692796}
   m_Father: {fileID: 2131289704}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -680,7 +886,7 @@ GameObject:
   - component: {fileID: 363211975}
   - component: {fileID: 363211974}
   m_Layer: 0
-  m_Name: MachineLearning - Text
+  m_Name: CPSL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -706,7 +912,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 363211972}
-  m_Text: c. LW822 - CPSL
+  m_Text: 3. LW822 - CPSL
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -834,11 +1040,10 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 394790686}
   m_LocalRotation: {x: 0.5929009, y: 0.011563005, z: 0.015700242, w: -0.8050394}
-  m_LocalPosition: {x: 1.6861025, y: 8.786404, z: -3.8454895}
-  m_LocalScale: {x: 0.30000016, y: 0.10000012, z: 0.10000015}
-  m_Children:
-  - {fileID: 542961827}
-  m_Father: {fileID: 595534624}
+  m_LocalPosition: {x: 0.06, y: 8.8, z: -3.9}
+  m_LocalScale: {x: 0.2, y: 0.100000136, z: 0.10000019}
+  m_Children: []
+  m_Father: {fileID: 203671872}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1 &433622243
@@ -852,7 +1057,7 @@ GameObject:
   - component: {fileID: 433622246}
   - component: {fileID: 433622245}
   m_Layer: 0
-  m_Name: MachineLearning - Text
+  m_Name: TheoryLab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -878,7 +1083,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 433622243}
-  m_Text: c. LW822 - CPSL
+  m_Text: 6. LW829 - Theory Lab
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -938,7 +1143,7 @@ GameObject:
   - component: {fileID: 442719161}
   - component: {fileID: 442719160}
   m_Layer: 0
-  m_Name: GraphicsLab (1)
+  m_Name: MAPSLab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1119,12 +1324,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 512031378}
-  m_LocalRotation: {x: -0.5929009, y: -0.011563005, z: -0.015700242, w: -0.8050394}
-  m_LocalPosition: {x: 0.23671456, y: -1238.6721, z: 292.10687}
-  m_LocalScale: {x: 3.3502362, y: 10.000887, z: 10.0091915}
+  m_LocalRotation: {x: -0, y: -0, z: 4.6566123e-10, w: 1}
+  m_LocalPosition: {x: -9.6, y: 0.000024795532, z: 122.90003}
+  m_LocalScale: {x: 1.0040528, y: 1.000358, z: 1.0036958}
   m_Children: []
-  m_Father: {fileID: 1121671078}
-  m_RootOrder: 0
+  m_Father: {fileID: 595534624}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!102 &512031380
 TextMesh:
@@ -1204,12 +1409,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 542961826}
-  m_LocalRotation: {x: -0.5929009, y: -0.011563005, z: -0.015700242, w: -0.8050394}
-  m_LocalPosition: {x: 36.43403, y: -1233.1353, z: 292.10687}
-  m_LocalScale: {x: 3.3502362, y: 10.000887, z: 10.0091915}
+  m_LocalRotation: {x: -0, y: -0, z: 4.6566123e-10, w: 1}
+  m_LocalPosition: {x: 0.9, y: 0.00002670288, z: 122.9}
+  m_LocalScale: {x: 1.0040528, y: 1.000358, z: 1.0036958}
   m_Children: []
-  m_Father: {fileID: 394790690}
-  m_RootOrder: 0
+  m_Father: {fileID: 595534624}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!102 &542961828
 TextMesh:
@@ -1278,7 +1483,7 @@ GameObject:
   - component: {fileID: 562641062}
   - component: {fileID: 562641061}
   m_Layer: 0
-  m_Name: CPSL (1)
+  m_Name: CSLab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1473,11 +1678,13 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1815376228}
-  - {fileID: 1121671078}
-  - {fileID: 394790690}
-  - {fileID: 1816445382}
+  - {fileID: 1680454872}
+  - {fileID: 512031379}
+  - {fileID: 542961827}
+  - {fileID: 1312198557}
+  - {fileID: 286295664}
   - {fileID: 1156314534}
+  - {fileID: 203671872}
   m_Father: {fileID: 2131289704}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1596,7 +1803,7 @@ GameObject:
   - component: {fileID: 742018071}
   - component: {fileID: 742018070}
   m_Layer: 0
-  m_Name: MachineLearning (1)
+  m_Name: ACIDLab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1680,7 +1887,7 @@ GameObject:
   - component: {fileID: 746888107}
   - component: {fileID: 746888106}
   m_Layer: 0
-  m_Name: MachineLearning - Text
+  m_Name: MachineLearning
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1706,7 +1913,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 746888104}
-  m_Text: 'b. LW821 - Machine Learning
+  m_Text: '2. LW821 - Machine Learning
 
 '
   m_OffsetZ: 0
@@ -1756,6 +1963,37 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!1 &754692795
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 754692796}
+  m_Layer: 0
+  m_Name: Page 5 Content
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &754692796
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 754692795}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1318047427}
+  - {fileID: 1237494818}
+  - {fileID: 1503447724}
+  m_Father: {fileID: 311470278}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &864015609
 GameObject:
   m_ObjectHideFlags: 0
@@ -1767,7 +2005,7 @@ GameObject:
   - component: {fileID: 864015612}
   - component: {fileID: 864015611}
   m_Layer: 0
-  m_Name: AR&VR - Text
+  m_Name: AR&VR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1793,7 +2031,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 864015609}
-  m_Text: a. LW820 - Graphics Lab
+  m_Text: 1. LW820 - Graphics Lab
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -2090,7 +2328,7 @@ GameObject:
   - component: {fileID: 928170100}
   - component: {fileID: 928170099}
   m_Layer: 0
-  m_Name: AR&VR - Text
+  m_Name: StudentLounge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2116,7 +2354,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 928170097}
-  m_Text: a. LW820 - Graphics Lab
+  m_Text: 10. LW821 - Student Lounge
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -2260,7 +2498,7 @@ GameObject:
   - component: {fileID: 969605785}
   - component: {fileID: 969605784}
   m_Layer: 0
-  m_Name: MachineLearning - Text
+  m_Name: ACIDLab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2286,7 +2524,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 969605782}
-  m_Text: 'b. LW821 - Machine Learning
+  m_Text: '11. LW832-1 - ACID Lab
 
 '
   m_OffsetZ: 0
@@ -2350,7 +2588,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1044962499
 Transform:
   m_ObjectHideFlags: 0
@@ -2378,7 +2616,7 @@ GameObject:
   - component: {fileID: 1080847862}
   - component: {fileID: 1080847861}
   m_Layer: 0
-  m_Name: MachineLearning - Text
+  m_Name: SouthLearningLab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2404,7 +2642,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1080847859}
-  m_Text: c. LW822 - CPSL
+  m_Text: 9. LW830 - S. Learning Lab
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -2532,11 +2770,10 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1121671074}
   m_LocalRotation: {x: 0.5929009, y: 0.011563005, z: 0.015700242, w: -0.8050394}
-  m_LocalPosition: {x: -1.6413656, y: 8.824923, z: -3.9694824}
-  m_LocalScale: {x: 0.30000016, y: 0.10000012, z: 0.10000015}
-  m_Children:
-  - {fileID: 512031379}
-  m_Father: {fileID: 595534624}
+  m_LocalPosition: {x: -2.3461022, y: 8.833596, z: -3.994512}
+  m_LocalScale: {x: 0.2, y: 0.100000136, z: 0.10000019}
+  m_Children: []
+  m_Father: {fileID: 203671872}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1 &1156314533
@@ -2570,7 +2807,7 @@ RectTransform:
   m_Children:
   - {fileID: 220809705}
   m_Father: {fileID: 595534624}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2723,6 +2960,91 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!1 &1237494817
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1237494818}
+  - component: {fileID: 1237494821}
+  - component: {fileID: 1237494820}
+  - component: {fileID: 1237494819}
+  m_Layer: 0
+  m_Name: PCLab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1237494818
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1237494817}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 12.399996, z: 0}
+  m_LocalScale: {x: 13, y: 1.1999999, z: 0.5}
+  m_Children:
+  - {fileID: 63712092}
+  m_Father: {fileID: 754692796}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1237494819
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1237494817}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 6dab6a952b42a50459c6a53bcd11b729, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &1237494820
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1237494817}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1237494821
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1237494817}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1252973678
 GameObject:
   m_ObjectHideFlags: 0
@@ -2918,12 +3240,12 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1312198556}
-  m_LocalRotation: {x: -0.5929009, y: -0.011563005, z: -0.015700242, w: -0.8050394}
-  m_LocalPosition: {x: 75.09599, y: -1227.2869, z: 292.10663}
-  m_LocalScale: {x: 3.3502362, y: 10.000887, z: 10.0091915}
+  m_LocalRotation: {x: -0, y: -0, z: 4.6566123e-10, w: 1}
+  m_LocalPosition: {x: 11.4, y: 0, z: 122.9}
+  m_LocalScale: {x: 1.0040528, y: 1.000358, z: 1.0036958}
   m_Children: []
-  m_Father: {fileID: 1816445382}
-  m_RootOrder: 0
+  m_Father: {fileID: 595534624}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!102 &1312198558
 TextMesh:
@@ -2980,6 +3302,91 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!1 &1318047426
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1318047427}
+  - component: {fileID: 1318047430}
+  - component: {fileID: 1318047429}
+  - component: {fileID: 1318047428}
+  m_Layer: 0
+  m_Name: NorthLearningLab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1318047427
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1318047426}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 14.550005, z: 0}
+  m_LocalScale: {x: 13, y: 1.1999999, z: 0.5}
+  m_Children:
+  - {fileID: 1912183749}
+  m_Father: {fileID: 754692796}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1318047428
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1318047426}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 6dab6a952b42a50459c6a53bcd11b729, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &1318047429
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1318047426}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1318047430
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1318047426}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1323577237
 GameObject:
   m_ObjectHideFlags: 0
@@ -3020,7 +3427,7 @@ GameObject:
   - component: {fileID: 1344714647}
   - component: {fileID: 1344714646}
   m_Layer: 0
-  m_Name: AR&VR - Text
+  m_Name: DECENTLab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3046,7 +3453,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1344714644}
-  m_Text: a. LW820 - Graphics Lab
+  m_Text: 7. LW829-1 - DECENT Lab
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -3191,7 +3598,7 @@ GameObject:
   - component: {fileID: 1381896982}
   - component: {fileID: 1381896981}
   m_Layer: 0
-  m_Name: GraphicsLab (1)
+  m_Name: DECENTLab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3381,7 +3788,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1491120579
 Transform:
   m_ObjectHideFlags: 0
@@ -3429,6 +3836,92 @@ Transform:
   m_Father: {fileID: 311470278}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1497530387
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1497530388}
+  - component: {fileID: 1497530391}
+  - component: {fileID: 1497530390}
+  - component: {fileID: 1497530389}
+  m_Layer: 0
+  m_Name: Page 5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1497530388
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1497530387}
+  m_LocalRotation: {x: 0.5929009, y: 0.011563005, z: 0.015700242, w: -0.8050394}
+  m_LocalPosition: {x: 5.073525, y: 8.747191, z: -3.719265}
+  m_LocalScale: {x: 0.2, y: 0.10000004, z: 0.100000076}
+  m_Children: []
+  m_Father: {fileID: 203671872}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!23 &1497530389
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1497530387}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 75f6aaa4bbf1a724aa92527104a83333, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!64 &1497530390
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1497530387}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &1497530391
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1497530387}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1499605202
 GameObject:
   m_ObjectHideFlags: 0
@@ -3514,6 +4007,176 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1499605202}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1503447723
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1503447724}
+  - component: {fileID: 1503447727}
+  - component: {fileID: 1503447726}
+  - component: {fileID: 1503447725}
+  m_Layer: 0
+  m_Name: MacLab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1503447724
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1503447723}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 10.499996, z: 0.000011444092}
+  m_LocalScale: {x: 13, y: 1.1999999, z: 0.5}
+  m_Children:
+  - {fileID: 1508654561}
+  m_Father: {fileID: 754692796}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1503447725
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1503447723}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 6dab6a952b42a50459c6a53bcd11b729, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &1503447726
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1503447723}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1503447727
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1503447723}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1508654560
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1508654561}
+  - component: {fileID: 1508654563}
+  - component: {fileID: 1508654562}
+  m_Layer: 0
+  m_Name: MacLab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1508654561
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1508654560}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.35, y: -1.3, z: 168}
+  m_LocalScale: {x: 0.07692309, y: 0.83333325, z: 2}
+  m_Children: []
+  m_Father: {fileID: 1503447724}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!102 &1508654562
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1508654560}
+  m_Text: 15. LW844 - Mac Lab
+  m_OffsetZ: 0
+  m_CharacterSize: 1
+  m_LineSpacing: 1
+  m_Anchor: 0
+  m_Alignment: 0
+  m_TabSize: 4
+  m_FontSize: 27
+  m_FontStyle: 0
+  m_RichText: 1
+  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
+--- !u!23 &1508654563
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1508654560}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
 --- !u!1 &1578287077
 GameObject:
   m_ObjectHideFlags: 0
@@ -3525,7 +4188,7 @@ GameObject:
   - component: {fileID: 1578287080}
   - component: {fileID: 1578287079}
   m_Layer: 0
-  m_Name: AR&VR - Text
+  m_Name: MAPSLab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3551,7 +4214,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1578287077}
-  m_Text: a. LW820 - Graphics Lab
+  m_Text: 4. LW826 - MAPS Lab
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -3610,7 +4273,7 @@ GameObject:
   - component: {fileID: 1589858394}
   - component: {fileID: 1589858393}
   m_Layer: 0
-  m_Name: MachineLearning - Text
+  m_Name: PDSLab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3636,7 +4299,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1589858391}
-  m_Text: 'b. LW821 - Machine Learning
+  m_Text: '5. LW827 - PDS Lab
 
 '
   m_OffsetZ: 0
@@ -3700,7 +4363,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1592189254
 Transform:
   m_ObjectHideFlags: 0
@@ -3729,7 +4392,7 @@ GameObject:
   - component: {fileID: 1610005019}
   - component: {fileID: 1610005018}
   m_Layer: 0
-  m_Name: GraphicsLab (1)
+  m_Name: StudentLounge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3814,7 +4477,7 @@ GameObject:
   - component: {fileID: 1629256906}
   - component: {fileID: 1629256905}
   m_Layer: 0
-  m_Name: CPSL (1)
+  m_Name: SouthLearningLab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3910,11 +4573,11 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1680454871}
-  m_LocalRotation: {x: -0.5929009, y: -0.011563005, z: -0.015700242, w: -0.8050394}
-  m_LocalPosition: {x: -37.426014, y: -1244.4034, z: 292.10693}
-  m_LocalScale: {x: 3.3502355, y: 10.000887, z: 10.0091915}
+  m_LocalRotation: {x: -0, y: -0, z: 4.6566123e-10, w: 1}
+  m_LocalPosition: {x: -20.6, y: 0.000038146973, z: 122.9}
+  m_LocalScale: {x: 1.0040525, y: 1.000358, z: 1.0036958}
   m_Children: []
-  m_Father: {fileID: 1815376228}
+  m_Father: {fileID: 595534624}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!102 &1680454873
@@ -4298,16 +4961,15 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1815376222}
   m_LocalRotation: {x: 0.5929009, y: 0.011563005, z: 0.015700242, w: -0.8050394}
-  m_LocalPosition: {x: 0, y: 0, z: -4.095707}
-  m_LocalScale: {x: 0.30000016, y: 0.10000012, z: 0.10000015}
-  m_Children:
-  - {fileID: 1680454872}
-  m_Father: {fileID: 595534624}
+  m_LocalPosition: {x: 0, y: 0, z: -4.084512}
+  m_LocalScale: {x: 0.2, y: 0.100000136, z: 0.10000019}
+  m_Children: []
+  m_Father: {fileID: 203671872}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -5.0287876, y: 8.864136}
+  m_AnchoredPosition: {x: -4.8761024, y: 8.853597}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1816445378
@@ -4390,11 +5052,10 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1816445378}
   m_LocalRotation: {x: 0.5929009, y: 0.011563005, z: 0.015700242, w: -0.8050394}
-  m_LocalPosition: {x: 5.073525, y: 8.747191, z: -3.719265}
-  m_LocalScale: {x: 0.30000016, y: 0.10000012, z: 0.10000015}
-  m_Children:
-  - {fileID: 1312198557}
-  m_Father: {fileID: 595534624}
+  m_LocalPosition: {x: 2.58, y: 8.78, z: -3.81}
+  m_LocalScale: {x: 0.2, y: 0.100000136, z: 0.10000019}
+  m_Children: []
+  m_Father: {fileID: 203671872}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1 &1832402525
@@ -4528,6 +5189,91 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!1 &1912183748
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1912183749}
+  - component: {fileID: 1912183751}
+  - component: {fileID: 1912183750}
+  m_Layer: 0
+  m_Name: NorthLearningLab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1912183749
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1912183748}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.35, y: 5.5, z: 168}
+  m_LocalScale: {x: 0.07692309, y: 0.83333325, z: 2}
+  m_Children: []
+  m_Father: {fileID: 1318047427}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!102 &1912183750
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1912183748}
+  m_Text: 13. LW835 - N. Learning Lab
+  m_OffsetZ: 0
+  m_CharacterSize: 1
+  m_LineSpacing: 1
+  m_Anchor: 0
+  m_Alignment: 0
+  m_TabSize: 4
+  m_FontSize: 27
+  m_FontStyle: 0
+  m_RichText: 1
+  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
+--- !u!23 &1912183751
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1912183748}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
 --- !u!1 &1926654092
 GameObject:
   m_ObjectHideFlags: 0
@@ -4625,7 +5371,7 @@ GameObject:
   - component: {fileID: 1929797621}
   - component: {fileID: 1929797620}
   m_Layer: 0
-  m_Name: MachineLearning (1)
+  m_Name: BDLab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4800,7 +5546,7 @@ GameObject:
   - component: {fileID: 2091323998}
   - component: {fileID: 2091323997}
   m_Layer: 0
-  m_Name: CPSL (1)
+  m_Name: TheoryLab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

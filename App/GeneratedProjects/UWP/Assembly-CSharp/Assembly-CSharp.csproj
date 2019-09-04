@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{16621955-3c79-48ab-b2d3-76bfa6ee42fa}</ProjectGuid>
+    <ProjectGuid>{6fc83e85-ad9a-452f-82bd-13a4ea53bf39}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AssemblyCSharpWSA</RootNamespace>
@@ -2467,6 +2467,21 @@
     </Compile>
     <Compile Include="$(UnityProjectDir)Assets\Scripts\UIControl.cs">
       <Link>Scripts\UIControl.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\TurnTheGameOn\Arrow WayPointer\Demo Scene\Scripts\CharacterControllerThirdPerson.cs">
+      <Link>TurnTheGameOn\Arrow WayPointer\Demo Scene\Scripts\CharacterControllerThirdPerson.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\TurnTheGameOn\Arrow WayPointer\Demo Scene\Scripts\SmoothFollow.cs">
+      <Link>TurnTheGameOn\Arrow WayPointer\Demo Scene\Scripts\SmoothFollow.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\TurnTheGameOn\Arrow WayPointer\Demo Scene\Scripts\UserControlThirdPerson.cs">
+      <Link>TurnTheGameOn\Arrow WayPointer\Demo Scene\Scripts\UserControlThirdPerson.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\TurnTheGameOn\Arrow WayPointer\Scripts\Waypoint.cs">
+      <Link>TurnTheGameOn\Arrow WayPointer\Scripts\Waypoint.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\TurnTheGameOn\Arrow WayPointer\Scripts\WaypointController.cs">
+      <Link>TurnTheGameOn\Arrow WayPointer\Scripts\WaypointController.cs</Link>
     </Compile>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">

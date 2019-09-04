@@ -936,6 +936,11 @@
     <Compile Include="Assets\Scripts\CalculateDistance.cs" />
     <Compile Include="Assets\Scripts\DebugLog.cs" />
     <Compile Include="Assets\Scripts\UIControl.cs" />
+    <Compile Include="Assets\TurnTheGameOn\Arrow WayPointer\Demo Scene\Scripts\CharacterControllerThirdPerson.cs" />
+    <Compile Include="Assets\TurnTheGameOn\Arrow WayPointer\Demo Scene\Scripts\SmoothFollow.cs" />
+    <Compile Include="Assets\TurnTheGameOn\Arrow WayPointer\Demo Scene\Scripts\UserControlThirdPerson.cs" />
+    <Compile Include="Assets\TurnTheGameOn\Arrow WayPointer\Scripts\Waypoint.cs" />
+    <Compile Include="Assets\TurnTheGameOn\Arrow WayPointer\Scripts\WaypointController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\HoloToolkit-Examples\Medical\Shaders\PlaneCut.cginc" />
@@ -999,6 +1004,7 @@
     <None Include="Assets\HoloToolkit\Utilities\Scripts\GLTF\Shaders\GLTFStandard.shader" />
     <None Include="Assets\HoloToolkit\Utilities\Scripts\GLTF\Shaders\GLTFStandardInput.cginc" />
     <None Include="Assets\HoloToolkit\Utilities\Scripts\GLTF\Shaders\GLTFVertexLitCommon.cginc" />
+    <None Include="Assets\TurnTheGameOn\Arrow WayPointer\Read Me.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

@@ -4,12 +4,8 @@ using UnityEngine;
 
 public class UIControl : MonoBehaviour {
 
-    public GameObject plane;
-    public GameObject openingScreen;
-    public GameObject journeyScreen;
-    public GameObject debugObjects;
-    public GameObject pageList;
-    public GameObject aContent, bContent, cContent, dContent, eContent, backButton;
+    public GameObject plane, openingScreen, journeyScreen, debugObjects, pageList, aContent, bContent, cContent, dContent, eContent, backButton, MLLab, GraphicsLab, CSL, destiny, mainCamera;
+    public string destinyName;
 
     // Use this for initialization
     void Start () {
@@ -24,6 +20,10 @@ public class UIControl : MonoBehaviour {
         dContent = GameObject.Find("dContent");
         eContent = GameObject.Find("eContent");
         backButton = GameObject.Find("Back");
+        MLLab = GameObject.Find("AnchorMLLab");
+        GraphicsLab = GameObject.Find("AnchorGraphicsLab");
+        CSL = GameObject.Find("AnchorCSL");
+        mainCamera = GameObject.Find("MixedRealityCamera");
         plane.gameObject.active = true;
         openingScreen.gameObject.active = true;
         pageList.gameObject.active = false;
@@ -34,6 +34,9 @@ public class UIControl : MonoBehaviour {
         eContent.gameObject.active = false;
         journeyScreen.gameObject.active = false;
         debugObjects.gameObject.active = false;
+        MLLab.gameObject.active = false;
+        GraphicsLab.gameObject.active = false;
+        CSL.gameObject.active = false;
 	}
 
     public void setDestination()
@@ -105,5 +108,70 @@ public class UIControl : MonoBehaviour {
         dContent.gameObject.active = false;
         aContent.gameObject.active = false;
 
+    }
+    public void One()
+    {
+        plane.gameObject.active = false;
+        pageList.gameObject.active = false;
+        aContent.gameObject.active = false;
+        bContent.gameObject.active = false;
+        cContent.gameObject.active = false;
+        dContent.gameObject.active = false;
+        eContent.gameObject.active = false;
+        journeyScreen.gameObject.active = true;
+        debugObjects.gameObject.active = false;
+        GraphicsLab.gameObject.active = true;
+        destiny = GraphicsLab;
+        destinyName = "Graphics Lab";
+        //Add a text variable here and calculate distance!
+    }
+    public void Two()
+    {
+        plane.gameObject.active = false;
+        pageList.gameObject.active = false;
+        aContent.gameObject.active = false;
+        bContent.gameObject.active = false;
+        cContent.gameObject.active = false;
+        dContent.gameObject.active = false;
+        eContent.gameObject.active = false;
+        journeyScreen.gameObject.active = true;
+        debugObjects.gameObject.active = false;
+        MLLab.gameObject.active = true;
+        destiny = MLLab;
+        destinyName = "ML Lab";
+        //Add a text variable here and calculate distance!
+    }
+    public void Three()
+    {
+        plane.gameObject.active = false;
+        pageList.gameObject.active = false;
+        aContent.gameObject.active = false;
+        bContent.gameObject.active = false;
+        cContent.gameObject.active = false;
+        dContent.gameObject.active = false;
+        eContent.gameObject.active = false;
+        journeyScreen.gameObject.active = true;
+        debugObjects.gameObject.active = false;
+        CSL.gameObject.active = true;
+        destiny = CSL;
+        destinyName = "CyberSecurity Lab";
+        //Add a text variable here and calculate distance!
+    }
+    public void exitNavigation()
+    {
+        plane.gameObject.active = true;
+        openingScreen.gameObject.active = true;
+        aContent.gameObject.active = false;
+        bContent.gameObject.active = false;
+        cContent.gameObject.active = false;
+        dContent.gameObject.active = false;
+        eContent.gameObject.active = false;
+        pageList.gameObject.active = false;
+        journeyScreen.gameObject.active = false;
+        debugObjects.gameObject.active = false;
+        CSL.gameObject.active = false;
+        MLLab.gameObject.active = false;
+        GraphicsLab.gameObject.active = false;
+        destiny = mainCamera;
     }
 }

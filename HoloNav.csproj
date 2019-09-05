@@ -232,6 +232,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\DirectionalNavigate.cs" />
     <Compile Include="Assets\HoloToolkit\Boundary\Scripts\BoundaryManager.cs" />
     <Compile Include="Assets\HoloToolkit\Boundary\Scripts\Edge.cs" />
     <Compile Include="Assets\HoloToolkit\Boundary\Scripts\EdgeHelpers.cs" />
@@ -933,8 +934,11 @@
     <Compile Include="Assets\HoloToolkit-Examples\UX\Scripts\Widgets\ScaleThemeWidget.cs" />
     <Compile Include="Assets\HoloToolkit-Examples\UX\Scripts\Widgets\TextMeshColorThemeWidget.cs" />
     <Compile Include="Assets\HoloToolkit-Examples\UX\Scripts\Widgets\TextureThemeWidget.cs" />
+    <Compile Include="Assets\Scripts\AnchorScript.cs" />
     <Compile Include="Assets\Scripts\CalculateDistance.cs" />
     <Compile Include="Assets\Scripts\DebugLog.cs" />
+    <Compile Include="Assets\Scripts\DestinationName.cs" />
+    <Compile Include="Assets\Scripts\Navigate.cs" />
     <Compile Include="Assets\Scripts\UIControl.cs" />
     <Compile Include="Assets\TurnTheGameOn\Arrow WayPointer\Demo Scene\Scripts\CharacterControllerThirdPerson.cs" />
     <Compile Include="Assets\TurnTheGameOn\Arrow WayPointer\Demo Scene\Scripts\SmoothFollow.cs" />

@@ -6,22 +6,24 @@ public class CalculateDistance : MonoBehaviour {
 
     //public Transform target;
     private GameObject mainCamera;
-    private GameObject Cursor;
+    public GameObject destiny;
+    public GameObject uiControl;
 
     // Start is called before the first frame update
     void Start()
     {
         mainCamera = GameObject.Find("MixedRealityCamera");
-        Cursor = GameObject.Find("DefaultCursor");
+        GameObject uiControl = GameObject.Find("UI");
     }
 
     // Update is called once per frame
     void Update()
     {
-        Vector3 heading = Cursor.transform.position - mainCamera.transform.position;
+        UIControl uiScript = uiControl.GetComponent<UIControl>();
+        destiny = uiScript.destiny;
+        Vector3 heading = destiny.transform.position - mainCamera.transform.position;
         float distance = Vector3.Dot(heading, mainCamera.transform.forward);
         distance = (float)System.Math.Round(distance, 2);
-        Debug.Log(distance);
-        Debug.Log(mainCamera.transform.position);
+        this.GetComponent<TextMesh>().text = distance.ToString();
     }
 }

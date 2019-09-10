@@ -24,6 +24,14 @@ public class CalculateDistance : MonoBehaviour {
         Vector3 heading = destiny.transform.position - mainCamera.transform.position;
         float distance = Vector3.Dot(heading, mainCamera.transform.forward);
         distance = (float)System.Math.Round(distance, 2);
-        this.GetComponent<TextMesh>().text = distance.ToString() + "m";
+        if (distance < 0)
+        {
+            uiScript.turnAround.gameObject.active = true;
+        }
+        else
+        {
+            uiScript.turnAround.gameObject.active = false;
+            this.GetComponent<TextMesh>().text = distance.ToString() + "m";
+        }
     }
 }

@@ -6,12 +6,14 @@ public class DirectionalNavigate : MonoBehaviour {
 
     public Transform destiny;
     public GameObject uiControl;
-    //public GameObject debugCube;
+    public Vector3 originalArrow;
+    public GameObject debugCube;
     
     // Use this for initialization
     void Start () {
         GameObject uiControl = GameObject.Find("UI");
         GameObject debugCube = GameObject.Find("Cube");
+        
     }
 	
 	// Update is called once per frame

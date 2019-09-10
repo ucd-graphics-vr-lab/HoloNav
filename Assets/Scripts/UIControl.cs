@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class UIControl : MonoBehaviour {
 
-    public GameObject plane, openingScreen, journeyScreen, debugObjects, pageList, aContent, bContent, cContent, dContent, eContent, backButton, MLLab, GraphicsLab, CSL, destiny, mainCamera, wayArrow;
+    public GameObject plane, openingScreen, journeyScreen, debugObjects, pageList, aContent, bContent, cContent, dContent, eContent, backButton, MLLab, GraphicsLab, CSL, destiny, mainCamera, wayArrow, turnAround;
     public string destinyName;
 
     // Use this for initialization
@@ -25,6 +25,7 @@ public class UIControl : MonoBehaviour {
         CSL = GameObject.Find("AnchorCSL");
         mainCamera = GameObject.Find("MixedRealityCamera");
         wayArrow = GameObject.Find("Waypoint Arrow");
+        turnAround = GameObject.Find("TurnAround");
         plane.gameObject.active = true;
         openingScreen.gameObject.active = true;
         pageList.gameObject.active = false;
@@ -39,6 +40,7 @@ public class UIControl : MonoBehaviour {
         GraphicsLab.gameObject.active = false;
         CSL.gameObject.active = false;
         wayArrow.gameObject.active = false;
+        turnAround.gameObject.active = false;
         //Two();
 	}
 

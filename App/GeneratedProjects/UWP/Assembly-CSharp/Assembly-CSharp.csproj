@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{758bf925-7955-41e7-b113-a7fd4765b9e5}</ProjectGuid>
+    <ProjectGuid>{72b39cfc-3026-42d2-ac22-14d2c5fa784e}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AssemblyCSharpWSA</RootNamespace>
@@ -356,9 +356,6 @@
     <SDKReference Include="WindowsTeam, Version=10.0.17763.0"/>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="$(UnityProjectDir)Assets\DirectionalNavigate.cs">
-      <Link>DirectionalNavigate.cs</Link>
-    </Compile>
     <Compile Include="$(UnityProjectDir)Assets\HoloToolkit\Boundary\Scripts\BoundaryManager.cs">
       <Link>HoloToolkit\Boundary\Scripts\BoundaryManager.cs</Link>
     </Compile>
@@ -2473,6 +2470,9 @@
     </Compile>
     <Compile Include="$(UnityProjectDir)Assets\Scripts\DestinationName.cs">
       <Link>Scripts\DestinationName.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\Scripts\DirectionalNavigate.cs">
+      <Link>Scripts\DirectionalNavigate.cs</Link>
     </Compile>
     <Compile Include="$(UnityProjectDir)Assets\Scripts\Navigate.cs">
       <Link>Scripts\Navigate.cs</Link>

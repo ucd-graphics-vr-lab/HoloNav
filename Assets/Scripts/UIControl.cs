@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class UIControl : MonoBehaviour {
 
-    public GameObject plane, openingScreen, journeyScreen, debugObjects, pageList, aContent, bContent, cContent, dContent, eContent, backButton, MLLab, GraphicsLab, CSL, destiny, mainCamera;
+    public GameObject plane, openingScreen, journeyScreen, debugObjects, pageList, aContent, bContent, cContent, dContent, eContent, backButton, MLLab, GraphicsLab, CSL, destiny, mainCamera, wayArrow;
     public string destinyName;
 
     // Use this for initialization
@@ -24,6 +24,7 @@ public class UIControl : MonoBehaviour {
         GraphicsLab = GameObject.Find("AnchorGraphicsLab");
         CSL = GameObject.Find("AnchorCSL");
         mainCamera = GameObject.Find("MixedRealityCamera");
+        wayArrow = GameObject.Find("Waypoint Arrow");
         plane.gameObject.active = true;
         openingScreen.gameObject.active = true;
         pageList.gameObject.active = false;
@@ -37,6 +38,8 @@ public class UIControl : MonoBehaviour {
         MLLab.gameObject.active = false;
         GraphicsLab.gameObject.active = false;
         CSL.gameObject.active = false;
+        wayArrow.gameObject.active = false;
+        //Two();
 	}
 
     public void setDestination()
@@ -112,6 +115,7 @@ public class UIControl : MonoBehaviour {
     public void One()
     {
         plane.gameObject.active = false;
+        openingScreen.gameObject.active = false;
         pageList.gameObject.active = false;
         aContent.gameObject.active = false;
         bContent.gameObject.active = false;
@@ -121,6 +125,7 @@ public class UIControl : MonoBehaviour {
         journeyScreen.gameObject.active = true;
         debugObjects.gameObject.active = false;
         GraphicsLab.gameObject.active = true;
+        wayArrow.gameObject.active = true;
         destiny = GraphicsLab;
         destinyName = "Graphics Lab";
         //Add a text variable here and calculate distance!
@@ -137,6 +142,7 @@ public class UIControl : MonoBehaviour {
         journeyScreen.gameObject.active = true;
         debugObjects.gameObject.active = false;
         MLLab.gameObject.active = true;
+        wayArrow.gameObject.active = true;
         destiny = MLLab;
         destinyName = "ML Lab";
         //Add a text variable here and calculate distance!
@@ -153,6 +159,7 @@ public class UIControl : MonoBehaviour {
         journeyScreen.gameObject.active = true;
         debugObjects.gameObject.active = false;
         CSL.gameObject.active = true;
+        wayArrow.gameObject.active = true;
         destiny = CSL;
         destinyName = "CyberSecurity Lab";
         //Add a text variable here and calculate distance!
@@ -172,6 +179,7 @@ public class UIControl : MonoBehaviour {
         CSL.gameObject.active = false;
         MLLab.gameObject.active = false;
         GraphicsLab.gameObject.active = false;
+        wayArrow.gameObject.active = false;
         destiny = mainCamera;
     }
 }

@@ -773,7 +773,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &286295664
 Transform:
   m_ObjectHideFlags: 0
@@ -781,7 +781,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 286295663}
   m_LocalRotation: {x: -0, y: -0, z: 4.6566123e-10, w: 1}
-  m_LocalPosition: {x: 21.2, y: 0, z: 122.89988}
+  m_LocalPosition: {x: 22, y: 0, z: 122.9}
   m_LocalScale: {x: 1.0040524, y: 1.0003568, z: 1.0036948}
   m_Children: []
   m_Father: {fileID: 595534624}
@@ -794,7 +794,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 286295663}
-  m_Text: 5th
+  m_Text: 5
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -1231,10 +1231,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a21d463f3c11edd43a031f4f36ca1f30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destiny: {fileID: 0}
+  destinyNav: {fileID: 0}
   uiControl: {fileID: 899734494}
   originalArrow: {x: 0, y: 0, z: 0}
-  debugCube: {fileID: 0}
 --- !u!1 &488584987
 GameObject:
   m_ObjectHideFlags: 0
@@ -1442,7 +1441,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 512031378}
   m_LocalRotation: {x: -0, y: -0, z: 4.6566123e-10, w: 1}
-  m_LocalPosition: {x: -11.3, y: 0.000024795532, z: 122.90003}
+  m_LocalPosition: {x: -11.3, y: -0, z: 122.9}
   m_LocalScale: {x: 1.0040528, y: 1.000358, z: 1.0036958}
   m_Children: []
   m_Father: {fileID: 595534624}
@@ -1455,7 +1454,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 512031378}
-  m_Text: 2nd
+  m_Text: Pg 2
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -1613,7 +1612,7 @@ Transform:
   m_GameObject: {fileID: 519425616}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 78.84552, y: 12.895083, z: 68.91704}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 12
@@ -1642,7 +1641,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 542961826}
   m_LocalRotation: {x: -0, y: -0, z: 4.6566123e-10, w: 1}
-  m_LocalPosition: {x: -0.7, y: 0.00002670288, z: 122.9}
+  m_LocalPosition: {x: -1.1, y: 0, z: 122.9}
   m_LocalScale: {x: 1.0040528, y: 1.000358, z: 1.0036958}
   m_Children: []
   m_Father: {fileID: 595534624}
@@ -1655,7 +1654,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 542961826}
-  m_Text: 3rd
+  m_Text: Pg 3
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -1813,7 +1812,7 @@ Transform:
   m_GameObject: {fileID: 553531888}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 78.84552, y: 12.895083, z: 68.91704}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 11
@@ -1835,7 +1834,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &562641060
 Transform:
   m_ObjectHideFlags: 0
@@ -1996,7 +1995,7 @@ MonoBehaviour:
           m_CallState: 2
       m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
-  - Keyword: First
+  - Keyword: Page One
     Response:
       m_PersistentCalls:
         m_Calls:
@@ -2013,7 +2012,7 @@ MonoBehaviour:
           m_CallState: 2
       m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
-  - Keyword: Second
+  - Keyword: Page Two
     Response:
       m_PersistentCalls:
         m_Calls:
@@ -2030,7 +2029,7 @@ MonoBehaviour:
           m_CallState: 2
       m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
-  - Keyword: Third
+  - Keyword: Page Three
     Response:
       m_PersistentCalls:
         m_Calls:
@@ -2047,7 +2046,7 @@ MonoBehaviour:
           m_CallState: 2
       m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
-  - Keyword: Fourth
+  - Keyword: Page Four
     Response:
       m_PersistentCalls:
         m_Calls:
@@ -2064,7 +2063,7 @@ MonoBehaviour:
           m_CallState: 2
       m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
-  - Keyword: Fifth
+  - Keyword: Page Five
     Response:
       m_PersistentCalls:
         m_Calls:
@@ -2217,148 +2216,12 @@ MonoBehaviour:
           m_CallState: 2
       m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
-  - Keyword: Anchor Seven
-    Response:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1976643100}
-          m_MethodName: AnchorIt
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-  - Keyword: Release Seven
-    Response:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1976643100}
-          m_MethodName: ReleaseAnchor
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-  - Keyword: Anchor Eight
-    Response:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 553531890}
-          m_MethodName: AnchorIt
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-  - Keyword: Release Eight
-    Response:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 553531890}
-          m_MethodName: ReleaseAnchor
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-  - Keyword: Anchor Nine
-    Response:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 519425618}
-          m_MethodName: AnchorIt
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-  - Keyword: Release Nine
-    Response:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 519425618}
-          m_MethodName: ReleaseAnchor
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-  - Keyword: Anchor Ten
-    Response:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1577772298}
-          m_MethodName: AnchorIt
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-  - Keyword: Release Ten
-    Response:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1577772298}
-          m_MethodName: ReleaseAnchor
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
   - Keyword: Seven
     Response:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 899734494}
-          m_MethodName: 
+        - m_Target: {fileID: 899734496}
+          m_MethodName: Seven
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -2374,8 +2237,8 @@ MonoBehaviour:
     Response:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 899734494}
-          m_MethodName: 
+        - m_Target: {fileID: 899734496}
+          m_MethodName: Eight
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -2391,8 +2254,8 @@ MonoBehaviour:
     Response:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 899734494}
-          m_MethodName: 
+        - m_Target: {fileID: 899734496}
+          m_MethodName: Nine
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -2408,8 +2271,8 @@ MonoBehaviour:
     Response:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 899734494}
-          m_MethodName: 
+        - m_Target: {fileID: 899734496}
+          m_MethodName: Ten
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -2443,15 +2306,15 @@ MonoBehaviour:
     KeyCode: 0
   - Keyword: Back
     KeyCode: 0
-  - Keyword: First
+  - Keyword: Page One
     KeyCode: 0
-  - Keyword: Second
+  - Keyword: Page Two
     KeyCode: 0
-  - Keyword: Third
+  - Keyword: Page Three
     KeyCode: 0
-  - Keyword: Fourth
+  - Keyword: Page Four
     KeyCode: 0
-  - Keyword: Fifth
+  - Keyword: Page Five
     KeyCode: 0
   - Keyword: One
     KeyCode: 0
@@ -2466,22 +2329,6 @@ MonoBehaviour:
   - Keyword: Five
     KeyCode: 0
   - Keyword: Six
-    KeyCode: 0
-  - Keyword: Anchor Seven
-    KeyCode: 0
-  - Keyword: Release Seven
-    KeyCode: 0
-  - Keyword: Anchor Eight
-    KeyCode: 0
-  - Keyword: Release Eight
-    KeyCode: 0
-  - Keyword: Anchor Nine
-    KeyCode: 0
-  - Keyword: Release Nine
-    KeyCode: 0
-  - Keyword: Anchor Ten
-    KeyCode: 0
-  - Keyword: Release Ten
     KeyCode: 0
   - Keyword: Seven
     KeyCode: 0
@@ -2647,7 +2494,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &742018069
 Transform:
   m_ObjectHideFlags: 0
@@ -3069,17 +2916,17 @@ MonoBehaviour:
   MLLab: {fileID: 1398659517}
   GraphicsLab: {fileID: 1413578782}
   CSL: {fileID: 1792817007}
+  MAPSLab: {fileID: 2024065581}
+  PDSLab: {fileID: 1288532380}
+  TheoryLab: {fileID: 2088412941}
+  DECENTLab: {fileID: 0}
+  BDLab: {fileID: 553531888}
+  LearningSouthLab: {fileID: 519425616}
+  StudentLounge: {fileID: 1577772296}
   destiny: {fileID: 0}
   mainCamera: {fileID: 0}
   wayArrow: {fileID: 0}
   turnAround: {fileID: 0}
-  MAPSLab: {fileID: 2024065581}
-  PDSLab: {fileID: 1288532380}
-  TheoryLab: {fileID: 2088412941}
-  DECENTLab: {fileID: 1976643098}
-  BDLab: {fileID: 553531888}
-  LearningSouthLab: {fileID: 519425616}
-  StudentLounge: {fileID: 1577772296}
   destinyName: 
 --- !u!65 &899734498
 BoxCollider:
@@ -3842,7 +3689,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1237494818
 Transform:
   m_ObjectHideFlags: 0
@@ -4336,7 +4183,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1312198556}
   m_LocalRotation: {x: -0, y: -0, z: 4.6566123e-10, w: 1}
-  m_LocalPosition: {x: 10.3, y: 0, z: 122.9}
+  m_LocalPosition: {x: 9.9, y: -0, z: 122.9}
   m_LocalScale: {x: 1.0040528, y: 1.000358, z: 1.0036958}
   m_Children: []
   m_Father: {fileID: 595534624}
@@ -4349,7 +4196,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1312198556}
-  m_Text: 4th
+  m_Text: Pg 4
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -4414,7 +4261,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1318047427
 Transform:
   m_ObjectHideFlags: 0
@@ -5464,7 +5311,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1503447724
 Transform:
   m_ObjectHideFlags: 0
@@ -5842,7 +5689,7 @@ Transform:
   m_GameObject: {fileID: 1577772296}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 78.84552, y: 12.895083, z: 68.91704}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 13
@@ -6029,7 +5876,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc584ad40253a2e4583444434ffb0fd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destiny: {fileID: 0}
+  destinyDist: {fileID: 0}
   uiControl: {fileID: 899734494}
 --- !u!1 &1589858391
 GameObject:
@@ -6458,7 +6305,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1680454871}
   m_LocalRotation: {x: -0, y: -0, z: 4.6566123e-10, w: 1}
-  m_LocalPosition: {x: -22.2, y: 0.000038146973, z: 122.9}
+  m_LocalPosition: {x: -22.6, y: -0, z: 122.9}
   m_LocalScale: {x: 1.0040525, y: 1.000358, z: 1.0036958}
   m_Children: []
   m_Father: {fileID: 595534624}
@@ -6471,7 +6318,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1680454871}
-  m_Text: 1st
+  m_Text: Pg 1
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -6620,7 +6467,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc584ad40253a2e4583444434ffb0fd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destiny: {fileID: 0}
+  destinyDist: {fileID: 0}
   uiControl: {fileID: 0}
 --- !u!1 &1720660877
 GameObject:
@@ -7726,7 +7573,7 @@ Transform:
   m_GameObject: {fileID: 1976643098}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 78.84552, y: 12.895083, z: 68.91704}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 10

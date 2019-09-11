@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class DirectionalNavigate : MonoBehaviour {
 
-    public Transform destiny;
+    public Transform destinyNav;
     public GameObject uiControl;
     public Vector3 originalArrow;
-    public GameObject debugCube;
     
     // Use this for initialization
     void Start () {
         GameObject uiControl = GameObject.Find("UI");
-        GameObject debugCube = GameObject.Find("Cube");
+        destinyNav = null;
         
     }
 	
@@ -20,9 +19,9 @@ public class DirectionalNavigate : MonoBehaviour {
 	void Update () {
         UIControl uiScript = uiControl.GetComponent<UIControl>();
         //destiny = new Vector3(this.transform.position.x, uiScript.destiny.transform.position.y, this.transform.position.z);
-        destiny = uiScript.destiny.transform;
+        destinyNav = uiScript.destiny.transform;
         Vector3 originalArrow = this.transform.eulerAngles;
-        this.transform.LookAt(destiny.transform.position, -Vector3.up);
+        this.transform.LookAt(destinyNav.transform.position, -Vector3.up);
         Vector3 newArrow = this.transform.eulerAngles;
         this.transform.eulerAngles = new Vector3(originalArrow.x, newArrow.y, originalArrow.z);
     }

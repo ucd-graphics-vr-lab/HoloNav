@@ -6,7 +6,7 @@ public class CalculateDistance : MonoBehaviour {
 
     //public Transform target;
     private GameObject mainCamera;
-    public GameObject destiny;
+    public GameObject destinyDist;
     public GameObject uiControl;
     UIControl uiScript;
     // Start is called before the first frame update
@@ -20,8 +20,8 @@ public class CalculateDistance : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        destiny = uiScript.destiny;
-        Vector3 heading = destiny.transform.position - mainCamera.transform.position;
+        destinyDist = uiScript.destiny;
+        Vector3 heading = destinyDist.transform.position - mainCamera.transform.position;
         float distance = Vector3.Dot(heading, mainCamera.transform.forward);
         distance = (float)System.Math.Round(distance, 2);
         if (distance < 0)

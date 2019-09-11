@@ -5,6 +5,7 @@ using UnityEngine;
 public class UIControl : MonoBehaviour {
 
     public GameObject plane, openingScreen, journeyScreen, debugObjects, pageList, aContent, bContent, cContent, dContent, eContent, backButton, MLLab, GraphicsLab, CSL, destiny, mainCamera, wayArrow, turnAround;
+    public GameObject MAPSLab, PDSLab, TheoryLab, DECENTLab, BDLab, LearningSouthLab, StudentLounge;
     public string destinyName;
 
     // Use this for initialization
@@ -26,6 +27,13 @@ public class UIControl : MonoBehaviour {
         mainCamera = GameObject.Find("MixedRealityCamera");
         wayArrow = GameObject.Find("Waypoint Arrow");
         turnAround = GameObject.Find("TurnAround");
+        MAPSLab = GameObject.Find("AnchorMapsLab");
+        PDSLab = GameObject.Find("AnchorPDSLab");
+        TheoryLab = GameObject.Find("AnchorTheoryLab");
+        DECENTLab = GameObject.Find("AnchorDECENTLab");
+        BDLab = GameObject.Find("AnchorBDLab");
+        LearningSouthLab = GameObject.Find("AnchorLearningLabSouth");
+        StudentLounge = GameObject.Find("AnchorStudentLounge");
         plane.gameObject.active = true;
         openingScreen.gameObject.active = true;
         pageList.gameObject.active = false;
@@ -41,6 +49,9 @@ public class UIControl : MonoBehaviour {
         CSL.gameObject.active = false;
         wayArrow.gameObject.active = false;
         turnAround.gameObject.active = false;
+        MAPSLab.gameObject.active = false;
+        PDSLab.gameObject.active = false;
+        TheoryLab.gameObject.active = false;
         //Two();
 	}
 
@@ -164,6 +175,57 @@ public class UIControl : MonoBehaviour {
         wayArrow.gameObject.active = true;
         destiny = CSL;
         destinyName = "CyberSecurity Lab";
+        //Add a text variable here and calculate distance!
+    }
+    public void Four()
+    {
+        plane.gameObject.active = false;
+        pageList.gameObject.active = false;
+        aContent.gameObject.active = false;
+        bContent.gameObject.active = false;
+        cContent.gameObject.active = false;
+        dContent.gameObject.active = false;
+        eContent.gameObject.active = false;
+        journeyScreen.gameObject.active = true;
+        debugObjects.gameObject.active = false;
+        MAPSLab.gameObject.active = true;
+        wayArrow.gameObject.active = true;
+        destiny = MAPSLab;
+        destinyName = "MAPS Lab";
+        //Add a text variable here and calculate distance!
+    }
+    public void Five()
+    {
+        plane.gameObject.active = false;
+        pageList.gameObject.active = false;
+        aContent.gameObject.active = false;
+        bContent.gameObject.active = false;
+        cContent.gameObject.active = false;
+        dContent.gameObject.active = false;
+        eContent.gameObject.active = false;
+        journeyScreen.gameObject.active = true;
+        debugObjects.gameObject.active = false;
+        PDSLab.gameObject.active = true;
+        wayArrow.gameObject.active = true;
+        destiny = PDSLab;
+        destinyName = "PDS Lab";
+        //Add a text variable here and calculate distance!
+    }
+    public void Six()
+    {
+        plane.gameObject.active = false;
+        pageList.gameObject.active = false;
+        aContent.gameObject.active = false;
+        bContent.gameObject.active = false;
+        cContent.gameObject.active = false;
+        dContent.gameObject.active = false;
+        eContent.gameObject.active = false;
+        journeyScreen.gameObject.active = true;
+        debugObjects.gameObject.active = false;
+        TheoryLab.gameObject.active = true;
+        wayArrow.gameObject.active = true;
+        destiny = TheoryLab;
+        destinyName = "Theory Lab";
         //Add a text variable here and calculate distance!
     }
     public void exitNavigation()

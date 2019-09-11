@@ -465,7 +465,7 @@ da88126cdf11ba2e81311bc5c64d91f3 Assembly-CSharp.dll:HoloToolkit.Unity.InputModu
 5e0a9fd17184f312d2ba6d7f86a7f2b6 Assembly-CSharp.dll:HoloToolkit.Examples.UX.DialogExampleLaunchButton
 a5bcd5eaa3a31f63d9a69a83d4861793 Assembly-CSharp.dll:HoloToolkit.Unity.SharingWithUNET.GenericNetworkTransmitter
 774d2cbfee83c1c0f3c11e30c7a8c851 Assembly-CSharp.dll:HoloToolkit.Unity.ToggleDebugWindow
-259be499821aeee7c5b458fd8418508c Assembly-CSharp.dll:.UIControl
+2206272241dc03a97321969e983b743c Assembly-CSharp.dll:.UIControl
 d175f40a152e7a22b68400f96cf335b9 Assembly-CSharp.dll:HoloToolkit.Unity.Tests.RotateMinMax
 34ca8c303381beda5c61a9f3374cb9c0 Assembly-CSharp.dll:HoloToolkit.UX.ToolTips.ToolTipBackgroundCorners
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:HoloToolkit.Sharing.TransformSynchronizer

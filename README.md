@@ -1,37 +1,27 @@
-## Welcome to GitHub Pages
+# HoloNav
 
-You can use the [editor on GitHub](https://github.com/KushalBKusram/HoloNav/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+An indoor navigation HoloLens app that utilizes on-board cameras and spatial sensors to perform spatial mapping to help an end-user navigate floor of the Department of Computer Science, University of Colorado, Denver. The floor was previously registered using HoloLens generating a 3D Mesh Map which was used to anchor 10 rooms (labs) on the same map. HoloNav’s UI presents user a list of options to choose a destination. HoloNav can load the anchor in the pre-mapped mesh and has the ability to point a navigational arrow while displaying distance from entered destination. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### HoloNav Demo [[YouTube]](https://www.youtube.com/watch?v=TjUGAx9mPPo)
 
-### Markdown
+## Project
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+This repository contains a generic version of the implementation, project needs to be built before deployment to HoloLens. The following environment has to be setup in order to build the project. 
 
-```markdown
-Syntax highlighted code block
+### Build
+#### Requirements
+- Microsoft HoloLens 
+- Microsoft Visual Studio 2017
+- Unity 2017
+- HoloToolkit 2017
 
-# Header 1
-## Header 2
-### Header 3
+#### Procedure
+1. Open project in Unity 2017.
+2. Build project for Microsoft Visual Studio 2017, Microsoft HoloLens and x86 in build settings. 
+3. Open the compiled Visual Studio project (HoloLens needs to be paired with your Visual Studio) set to "Solution Configuration: Debug", "Solution Platform: x86" and change it to "Device" (this option will show if you have successfully paired your HoloLens. 
+4. Deploy to HoloLens and have fun!
 
-- Bulleted
-- List
+#### Future Work
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/KushalBKusram/HoloNav/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- Drag and drop 3D scanned floor mesh
+- Azure Spatial Anchor Implementations

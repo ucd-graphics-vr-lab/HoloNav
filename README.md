@@ -4,7 +4,7 @@ An indoor navigation HoloLens app that utilizes on-board cameras and spatial sen
 
 ### HoloNav Demo [[YouTube]](https://www.youtube.com/watch?v=TjUGAx9mPPo)
 
-## Project
+## Project Details
 
 This repository contains a generic version of the implementation, project needs to be built before deployment to HoloLens. The following environment has to be setup in order to build the project. 
 

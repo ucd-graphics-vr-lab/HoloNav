@@ -10,9 +10,11 @@ The user shall interact with this HoloLens app through voice commands, except du
 
 ## Documentation
 The project is structured as follows:
-- Mixed Reality Camera Parent: Contains Mixed Reality Camera and UIControl Script, UI Elements
-- Managers: Contains Input Manager, Speech Manager and Anchor Manager
-- Anchors: There are 5 anchors to begin with
+- Mixed Reality Camera Parent: Contains Mixed Reality Camera, UIControl Script and UI Elements.
+- DefaultCursor: The default cursor prefab, used to select anchors and move them around.
+- SpatialMapping: Required for calibration of the space.
+- Managers: Contains Input Manager, Speech Manager and Anchor Manager.
+- Anchors: There are 5 anchors to begin with.
 
 Custom scripts can be found in Scripts directory, these are the only additional scripts that I have created in this project and no other script was changed, hence for proper implementation and functioning I recommend making changes to only files present in "Scripts" directory. 
 

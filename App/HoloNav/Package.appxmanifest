@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:uap2="http://schemas.microsoft.com/appx/manifest/uap/windows10/2" IgnorableNamespaces="uap uap2 mp" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10">
   <Identity Name="HoloNav" Publisher="CN=DefaultCompany" Version="1.0.0.0" />
-  <mp:PhoneIdentity PhoneProductId="e331a293-bfd9-41c9-a42b-f33e2160c35f" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <mp:PhoneIdentity PhoneProductId="b7215725-49f4-4173-a316-1ae68d756a7c" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>HoloNav</DisplayName>
     <PublisherDisplayName>DefaultCompany</PublisherDisplayName>
@@ -28,10 +28,9 @@
     </Application>
   </Applications>
   <Capabilities>
-    <Capability Name="internetClient" />
+    <Capability Name="internetClientServer" />
+    <Capability Name="privateNetworkClientServer" />
     <uap2:Capability Name="spatialPerception" />
-    <DeviceCapability Name="webcam" />
-    <DeviceCapability Name="proximity" />
     <DeviceCapability Name="microphone" />
   </Capabilities>
 </Package>

@@ -4,317 +4,135 @@ using UnityEngine;
 
 public class UIControl : MonoBehaviour {
 
-    public GameObject plane, openingScreen, journeyScreen, debugObjects, pageList, aContent, bContent, cContent, dContent, eContent, backButton, MLLab, GraphicsLab, CSL, MAPSLab, PDSLab, TheoryLab, DECENTLab, BDLab, LearningSouthLab, StudentLounge, destiny=null, mainCamera, wayArrow, turnAround;
+    public GameObject plane, openingScreen, journeyScreen, destinationList, backButton, spatialMapping, anchorOne, anchorTwo, anchorThree, anchorFour, anchorFive, destiny = null, mainCamera, wayArrow, turnAround;
     public string destinyName;
 
     // Use this for initialization
     void Start () {
         plane = GameObject.Find("Plane");
         openingScreen = GameObject.Find("OpeningScreen");
+        destinationList = GameObject.Find("DestinationList");
         journeyScreen = GameObject.Find("JourneyScreen");
-        debugObjects = GameObject.Find("DebugObjects");
-        pageList = GameObject.Find("Pages");
-        aContent = GameObject.Find("aContent");
-        bContent = GameObject.Find("bContent");
-        cContent = GameObject.Find("cContent");
-        dContent = GameObject.Find("dContent");
-        eContent = GameObject.Find("eContent");
         backButton = GameObject.Find("Back");
-        MLLab = GameObject.Find("AnchorMLLab");
-        GraphicsLab = GameObject.Find("AnchorGraphicsLab");
-        CSL = GameObject.Find("AnchorCSL");
-        MAPSLab = GameObject.Find("AnchorMAPSLab");
-        PDSLab = GameObject.Find("AnchorPDSLab");
-        TheoryLab = GameObject.Find("AnchorTheoryLab");
-        DECENTLab = GameObject.Find("AnchorDECENTLab");
-        BDLab = GameObject.Find("AnchorBDLab");
-        LearningSouthLab = GameObject.Find("AnchorLearningLabSouth");
-        StudentLounge = GameObject.Find("AnchorStudentLounge");
+        anchorOne = GameObject.Find("AnchorOne");
+        anchorTwo = GameObject.Find("AnchorTwo");
+        anchorThree = GameObject.Find("AnchorThree");
+        anchorFour = GameObject.Find("AnchorFour");
+        anchorFive = GameObject.Find("AnchorFive");
         wayArrow = GameObject.Find("Waypoint Arrow");
         turnAround = GameObject.Find("TurnAround");
         mainCamera = GameObject.Find("MixedRealityCamera");
+        spatialMapping = GameObject.Find("SpatialMapping");
         plane.gameObject.active = true;
         openingScreen.gameObject.active = true;
-        pageList.gameObject.active = false;
-        aContent.gameObject.active = false;
-        bContent.gameObject.active = false;
-        cContent.gameObject.active = false;
-        dContent.gameObject.active = false;
-        eContent.gameObject.active = false;
+        spatialMapping.gameObject.active = false;
+        destinationList.gameObject.active = false;
         journeyScreen.gameObject.active = false;
-        debugObjects.gameObject.active = false;
-        MLLab.gameObject.active = false;
-        GraphicsLab.gameObject.active = false;
-        CSL.gameObject.active = false;
-        MAPSLab.gameObject.active = false;
-        PDSLab.gameObject.active = false;
+        anchorOne.gameObject.active = false;
+        anchorTwo.gameObject.active = false;
+        anchorThree.gameObject.active = false;
+        anchorFour.gameObject.active = false;
+        anchorFive.gameObject.active = false;
         wayArrow.gameObject.active = false;
-        turnAround.gameObject.active = false;
-        TheoryLab.gameObject.active = false;
-        DECENTLab.gameObject.active = false;
-        BDLab.gameObject.active = false;
-        LearningSouthLab.gameObject.active = false;
-        StudentLounge.gameObject.active = false;
-        //Two();
+        turnAround.gameObject.active = false;        
     }
-
-    public void setDestination()
+	
+	public void setDestination()
     {
         openingScreen.gameObject.active = false;
-        pageList.gameObject.active = true;
-        aContent.gameObject.active = true;
-
-    }
-    public void debugMode()
-    {
-        openingScreen.gameObject.active = false;
-        debugObjects.gameObject.active = true;
+        destinationList.gameObject.active = true;
         backButton.gameObject.active = true;
     }
     public void backUp()
     {
+        plane.gameObject.active = true;
         openingScreen.active = true;
-        aContent.gameObject.active = false;
-        bContent.gameObject.active = false;
-        cContent.gameObject.active = false;
-        dContent.gameObject.active = false;
-        eContent.gameObject.active = false;
-        pageList.gameObject.active = false;
+        destinationList.gameObject.active = false;
         journeyScreen.gameObject.active = false;
-        debugObjects.gameObject.active = false;
+        spatialMapping.gameObject.active = false;
+        anchorOne.gameObject.active = false;
+        anchorTwo.gameObject.active = false;
+        anchorThree.gameObject.active = false;
+        anchorFour.gameObject.active = false;
+        anchorFive.gameObject.active = false;
     }
-    public void aCon()
-    {
-        aContent.gameObject.active = true;
-        bContent.gameObject.active = false;
-        cContent.gameObject.active = false;
-        dContent.gameObject.active = false;
-        eContent.gameObject.active = false;
-
-    }
-    public void bCon()
-    {
-        bContent.gameObject.active = true;
-        aContent.gameObject.active = false;
-        cContent.gameObject.active = false;
-        dContent.gameObject.active = false;
-        eContent.gameObject.active = false;
-
-    }
-    public void cCon()
-    {
-        cContent.gameObject.active = true;
-        bContent.gameObject.active = false;
-        aContent.gameObject.active = false;
-        dContent.gameObject.active = false;
-        eContent.gameObject.active = false;
-
-    }
-    public void dCon()
-    {
-        dContent.gameObject.active = true;
-        bContent.gameObject.active = false;
-        cContent.gameObject.active = false;
-        aContent.gameObject.active = false;
-        eContent.gameObject.active = false;
-
-    }
-    public void eCon()
-    {
-        eContent.gameObject.active = true;
-        bContent.gameObject.active = false;
-        cContent.gameObject.active = false;
-        dContent.gameObject.active = false;
-        aContent.gameObject.active = false;
-
-    }
-    public void One()
+    public void settings()
     {
         plane.gameObject.active = false;
         openingScreen.gameObject.active = false;
-        pageList.gameObject.active = false;
-        aContent.gameObject.active = false;
-        bContent.gameObject.active = false;
-        cContent.gameObject.active = false;
-        dContent.gameObject.active = false;
-        eContent.gameObject.active = false;
-        journeyScreen.gameObject.active = true;
-        debugObjects.gameObject.active = false;
-        GraphicsLab.gameObject.active = true;
-        wayArrow.gameObject.active = true;
-        destiny = GraphicsLab;
-        destinyName = "Graphics Lab";
-        //Add a text variable here and calculate distance!
+        spatialMapping.gameObject.active = true;
+        backButton.gameObject.active = true;
+        anchorOne.gameObject.active = true;
+        anchorTwo.gameObject.active = true;
+        anchorThree.gameObject.active = true;
+        anchorFour.gameObject.active = true;
+        anchorFive.gameObject.active = true;
     }
-    public void Two()
+    public void AnchorOne()
     {
         plane.gameObject.active = false;
-        pageList.gameObject.active = false;
-        aContent.gameObject.active = false;
-        bContent.gameObject.active = false;
-        cContent.gameObject.active = false;
-        dContent.gameObject.active = false;
-        eContent.gameObject.active = false;
+        openingScreen.gameObject.active = false;
+        destinationList.gameObject.active = false;
         journeyScreen.gameObject.active = true;
-        debugObjects.gameObject.active = false;
-        MLLab.gameObject.active = true;
+        anchorOne.gameObject.active = true;
         wayArrow.gameObject.active = true;
-        destiny = MLLab;
-        destinyName = "ML Lab";
-        //Add a text variable here and calculate distance!
+        destiny = anchorOne;
+        destinyName = "Anchor One";
     }
-    public void Three()
+    public void AnchorTwo()
     {
         plane.gameObject.active = false;
-        pageList.gameObject.active = false;
-        aContent.gameObject.active = false;
-        bContent.gameObject.active = false;
-        cContent.gameObject.active = false;
-        dContent.gameObject.active = false;
-        eContent.gameObject.active = false;
+        openingScreen.gameObject.active = false;
+        destinationList.gameObject.active = false;
         journeyScreen.gameObject.active = true;
-        debugObjects.gameObject.active = false;
-        CSL.gameObject.active = true;
+        anchorTwo.gameObject.active = true;
         wayArrow.gameObject.active = true;
-        destiny = CSL;
-        destinyName = "CyberSecurity Lab";
-        //Add a text variable here and calculate distance!
+        destiny = anchorTwo;
+        destinyName = "Anchor Two";
     }
-    public void Four()
+    public void AnchorThree()
     {
         plane.gameObject.active = false;
-        pageList.gameObject.active = false;
-        aContent.gameObject.active = false;
-        bContent.gameObject.active = false;
-        cContent.gameObject.active = false;
-        dContent.gameObject.active = false;
-        eContent.gameObject.active = false;
+        openingScreen.gameObject.active = false;
+        destinationList.gameObject.active = false;
         journeyScreen.gameObject.active = true;
-        debugObjects.gameObject.active = false;
-        MAPSLab.gameObject.active = true;
+        anchorThree.gameObject.active = true;
         wayArrow.gameObject.active = true;
-        destiny = MAPSLab;
-        destinyName = "MAPS Lab";
-        //Add a text variable here and calculate distance!
+        destiny = anchorThree;
+        destinyName = "Anchor Three";
     }
-    public void Five()
+    public void AnchorFour()
     {
         plane.gameObject.active = false;
-        pageList.gameObject.active = false;
-        aContent.gameObject.active = false;
-        bContent.gameObject.active = false;
-        cContent.gameObject.active = false;
-        dContent.gameObject.active = false;
-        eContent.gameObject.active = false;
+        openingScreen.gameObject.active = false;
+        destinationList.gameObject.active = false;
         journeyScreen.gameObject.active = true;
-        debugObjects.gameObject.active = false;
-        PDSLab.gameObject.active = true;
+        anchorFour.gameObject.active = true;
         wayArrow.gameObject.active = true;
-        destiny = PDSLab;
-        destinyName = "PDS Lab";
-        //Add a text variable here and calculate distance!
+        destiny = anchorFour;
+        destinyName = "Anchor Four";
     }
-    public void Six()
+    public void AnchorFive()
     {
         plane.gameObject.active = false;
-        pageList.gameObject.active = false;
-        aContent.gameObject.active = false;
-        bContent.gameObject.active = false;
-        cContent.gameObject.active = false;
-        dContent.gameObject.active = false;
-        eContent.gameObject.active = false;
+        openingScreen.gameObject.active = false;
+        destinationList.gameObject.active = false;
         journeyScreen.gameObject.active = true;
-        debugObjects.gameObject.active = false;
-        TheoryLab.gameObject.active = true;
+        anchorFive.gameObject.active = true;
         wayArrow.gameObject.active = true;
-        destiny = TheoryLab;
-        destinyName = "Theory Lab";
-        //Add a text variable here and calculate distance!
-    }
-    public void Seven()
-    {
-        plane.gameObject.active = false;
-        pageList.gameObject.active = false;
-        aContent.gameObject.active = false;
-        bContent.gameObject.active = false;
-        cContent.gameObject.active = false;
-        dContent.gameObject.active = false;
-        eContent.gameObject.active = false;
-        journeyScreen.gameObject.active = true;
-        debugObjects.gameObject.active = false;
-        DECENTLab.gameObject.active = true;
-        wayArrow.gameObject.active = true;
-        destiny = DECENTLab;
-        destinyName = "DECENT Lab";
-        //Add a text variable here and calculate distance!
-    }
-    public void Eight()
-    {
-        plane.gameObject.active = false;
-        pageList.gameObject.active = false;
-        aContent.gameObject.active = false;
-        bContent.gameObject.active = false;
-        cContent.gameObject.active = false;
-        dContent.gameObject.active = false;
-        eContent.gameObject.active = false;
-        journeyScreen.gameObject.active = true;
-        debugObjects.gameObject.active = false;
-        BDLab.gameObject.active = true;
-        wayArrow.gameObject.active = true;
-        destiny = BDLab;
-        destinyName = "BD Lab";
-        //Add a text variable here and calculate distance!
-    }
-    public void Nine()
-    {
-        plane.gameObject.active = false;
-        pageList.gameObject.active = false;
-        aContent.gameObject.active = false;
-        bContent.gameObject.active = false;
-        cContent.gameObject.active = false;
-        dContent.gameObject.active = false;
-        eContent.gameObject.active = false;
-        journeyScreen.gameObject.active = true;
-        debugObjects.gameObject.active = false;
-        LearningSouthLab.gameObject.active = true;
-        wayArrow.gameObject.active = true;
-        destiny = LearningSouthLab;
-        destinyName = "South Learning Lab";
-        //Add a text variable here and calculate distance!
-    }
-    public void Ten()
-    {
-        plane.gameObject.active = false;
-        pageList.gameObject.active = false;
-        aContent.gameObject.active = false;
-        bContent.gameObject.active = false;
-        cContent.gameObject.active = false;
-        dContent.gameObject.active = false;
-        eContent.gameObject.active = false;
-        journeyScreen.gameObject.active = true;
-        debugObjects.gameObject.active = false;
-        StudentLounge.gameObject.active = true;
-        wayArrow.gameObject.active = true;
-        destiny = StudentLounge;
-        destinyName = "Student Lounge";
-        //Add a text variable here and calculate distance!
+        destiny = anchorFive;
+        destinyName = "Anchor Five";
     }
     public void exitNavigation()
     {
         plane.gameObject.active = true;
         openingScreen.gameObject.active = true;
-        aContent.gameObject.active = false;
-        bContent.gameObject.active = false;
-        cContent.gameObject.active = false;
-        dContent.gameObject.active = false;
-        eContent.gameObject.active = false;
-        pageList.gameObject.active = false;
+        anchorOne.gameObject.active = false;
+        anchorTwo.gameObject.active = false;
+        anchorThree.gameObject.active = false;
+        anchorFour.gameObject.active = false;
+        anchorFive.gameObject.active = false;
         journeyScreen.gameObject.active = false;
-        debugObjects.gameObject.active = false;
-        CSL.gameObject.active = false;
-        MLLab.gameObject.active = false;
-        GraphicsLab.gameObject.active = false;
         wayArrow.gameObject.active = false;
-        destiny = mainCamera;
     }
 }

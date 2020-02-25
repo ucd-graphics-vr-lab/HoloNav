@@ -1,9 +1,6 @@
 ﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
     <PropertyGroup>
-        <UnityWSASolutionName>HoloNav</UnityWSASolutionName>
-        <UnityWSASolutionDir>C:\Users\dogpa\Documents\Kushal Kusram\HoloNav\App\</UnityWSASolutionDir>
-        <UnityProjectDir>C:\Users\dogpa\Documents\Kushal Kusram\HoloNav\</UnityProjectDir>
-        <UnityWSAPlayerDir>C:\Program Files\Unity 2017\Editor\Data\PlaybackEngines\MetroSupport\</UnityWSAPlayerDir>
-        <UnityWSAToolsDir>$(UnityWSASolutionDir)Unity\Tools\</UnityWSAToolsDir>
+        <UnityWSAPlayerDir>C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport\</UnityWSAPlayerDir>
+        <UnityWSAToolsDir>$(SolutionDir)Unity\Tools\</UnityWSAToolsDir>
     </PropertyGroup>
 </Project>

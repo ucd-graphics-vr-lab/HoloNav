@@ -12,7 +12,7 @@ public class AnchorScript : MonoBehaviour {
         AnchorIt();
 	}
 	
-	public void AnchorIt()
+    public void AnchorIt()
     {
         worldAnchorManager.AttachAnchor(this.gameObject);
         this.gameObject.GetComponent<Renderer>().material.color = Color.red;

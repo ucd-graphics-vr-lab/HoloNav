@@ -1,2 +1,1 @@
-C:\Users\dogpa\Documents\Kushal Kusram\HoloNav\App\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj;x86
-C:\Users\dogpa\Documents\Kushal Kusram\HoloNav\App\HoloNav\HoloNav.csproj;x86
+C:\Users\KushalBKusram\Documents\Projects\HoloNav\App\HoloNav\HoloNav.csproj;x86

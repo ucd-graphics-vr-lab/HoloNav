@@ -5,13 +5,12 @@
 # Write a line equal to 'overwrite-all' (without quotes) to overwrite everything (preserved accross builds)
 # Write a line equal to 'keep-all' (without quotes) to keep files regardless their modification (preserved accross builds)
 # Default behavior is to never overwrite files
-HoloNav.sln: modified
-GeneratedProjects\UWP\Assembly-CSharp\project.json: 1D02BC64BAC0D041019673A1C4C51737
+HoloNav.sln: 1173C976E9ED896D863B01E308E7E614
 HoloNav\App.cs: 50A5E6C1BC4A235F9F05EFAB0B4695DC
-HoloNav\HoloNav.csproj: modified
+HoloNav\HoloNav.csproj: 7A29A068D92741600C113B1142632556
 HoloNav\HoloNav.csproj.user: modified
-HoloNav\Package.appxmanifest: C9CA27F6CF41D319677DFE3ADFE63034
-HoloNav\project.json: 1D02BC64BAC0D041019673A1C4C51737
+HoloNav\Package.appxmanifest: C5A30C7820451A11C52A3034B32DAD10
+HoloNav\project.json: 88AA7FF964823F6407718C34CA0DFE19
 HoloNav\Assets\SplashScreen.scale-200.png: A85C1D7624B6902CF8CEBD6F0200A826
 HoloNav\Assets\Square150x150Logo.scale-200.png: E02834B4A5DFB97FF8E212C1CACBB084
 HoloNav\Assets\Square44x44Logo.scale-200.png: 6C6EF27184ABE9D870A9D564953775DE

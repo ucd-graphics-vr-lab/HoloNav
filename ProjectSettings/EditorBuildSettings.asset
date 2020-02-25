@@ -6,5 +6,5 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/PhaseFour.unity
-    guid: 368002d99cd6a124f83972ec51625e91
+    path: Assets/Scenes/HoloNav.unity
+    guid: c6f14e33f8fee874caafa7d654caa136

@@ -936,6 +936,7 @@ MonoBehaviour:
   journeyScreen: {fileID: 0}
   destinationList: {fileID: 0}
   backButton: {fileID: 0}
+  spatialMapping: {fileID: 0}
   anchorOne: {fileID: 512228784}
   anchorTwo: {fileID: 0}
   anchorThree: {fileID: 0}
@@ -2897,14 +2898,14 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1000010302963436, guid: 2ed75ffdf9031c94e8bce4b3d17b9928, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 114000012149591842, guid: 2ed75ffdf9031c94e8bce4b3d17b9928,
         type: 2}
       propertyPath: RoomModel
       value: 
-      objectReference: {fileID: 100002, guid: 87bb1c0aa2cc5a3409e40674e8108095, type: 3}
-    - target: {fileID: 1000010302963436, guid: 2ed75ffdf9031c94e8bce4b3d17b9928, type: 2}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2ed75ffdf9031c94e8bce4b3d17b9928, type: 2}

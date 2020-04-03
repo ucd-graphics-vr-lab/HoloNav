@@ -22,5 +22,5 @@ Custom scripts can be found in Scripts directory, these are the only additional 
 HoloLens (1st Gen), Visual Studio 2017, Unity 2017.x, HoloToolKit 2017 (note: not MRTK).
 
 ## Usage
-Repo consists of a Unity project directory. Clone this repo and point Unity to this repo. Unity should import all the assets into a project for you. However, you will still need to set up Unity for HoloLens application development.
+Repo consists of a Unity project directory. Clone this repo and point Unity to this repo. Unity should import all the assets into a project for you. However, you will still need to set up Unity for HoloLens application development, which you can read about in an article that I wrote: [Configuring Unity for HoloLens Application Development](https://medium.com/@KushalBKusram/configuring-unity-for-hololens-application-development-899f79abb4ec)
 
